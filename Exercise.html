@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Assesment for Image Gallery</title>
+</head>
+
+<body>
+    <div id="container" >
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+   
+        <div id="header"> WHEELS </div>
+        <div class="content">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Non temporibus repudiandae tenetur quos quis aliquam quo dignissimos saepe est. Quod accusamus laborum ipsam suscipit quia fuga voluptas in at earum!
+        </div>
+        <div class="image-section">
+
+            <a target="_blank" class="wheel">
+                <img
+                    src="images/wgu.png" onclick="currentSlide(1)">
+                <p> 17-INCH CAST ALUMINIUM WHEEL, FULLY PAINTED SILVER LITHO</p>
+                <P class="note">Standard on turing FWD</P>
+                <P >(WGU)</P>
+            </a>
+            <a target="_blank"class="wheel">
+                <img
+                src="images/wjr.png" onclick="currentSlide(2)">
+                    <p> 17-INCH CAST ALUMINIUM DIAMOND-CUT WHEEL WITH BALTIC GRAY POCKETS</p>
+                    <P class="note">Standard on turing LFWD/Htbrid and Touring Hybrid</P>
+                    <P>(WJR)</P>
+            </a>
+
+            <a target="_blank" class="wheel">
+                <img
+                src="images/wp6.png" onclick="currentSlide(3)">
+                    <p> 18-INCH CAST ALUMINIUM WHEEL WITH FORESHADOW FINISH</p>
+                    <P class="note">Included with S Appearance Package on Touring Hybrid, Touring Hybrid and Limited Hybrid</P>
+                    <P>(WP6)</P>
+            </a>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
